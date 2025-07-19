@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 30px;
+}
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    -webkit-mask-image: url(Heart\ Png.png);
+    -webkit-mask-size: contain;
+}
