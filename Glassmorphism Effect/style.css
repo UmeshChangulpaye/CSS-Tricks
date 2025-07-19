@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+body {
+    padding: 50px;
+}
+
+#outer {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-image:url(image.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.382);
+    backdrop-filter: 10px ;
+}
