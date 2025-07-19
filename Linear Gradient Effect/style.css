@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#box {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+
+      /* here we choose diffrent color also direction of color like to rigth ,to left,to right bottom like this */
+      
+    background: linear-gradient(to left,rgba(255, 0, 0, 0.547),rgba(0, 0, 255, 0.37));
+}

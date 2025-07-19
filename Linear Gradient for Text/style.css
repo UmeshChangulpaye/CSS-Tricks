@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+body {
+    padding: 50px;
+}
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(to right, red,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+
+    text-shadow: 0 0 60px rgba(255, 0, 0, 0.457);
+
+    animation: anime 1s infinite alternate;
+
+}
+    /* we also add some animation on it  */
+
+    @keyframes anime {
+        100% {
+             text-shadow: 0 0 60px rgba(43, 0, 255, 0.457);
+        }
+        
+    }
