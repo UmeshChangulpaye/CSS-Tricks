@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.div {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+
+ clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+ /* polygon shape */
+  
+}
+
+
+/* https://bennettfeely.com/  
+Use this side for any type of shape */
