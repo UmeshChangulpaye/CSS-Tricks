@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 10px;
+}
+
+h1{
+    color: pink;
+}
+
+h1::after {
+    content: " Umesh";
+    
+}
+h1::before {
+    content: "Hey ";
+    
+}
