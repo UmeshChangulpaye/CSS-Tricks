@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 50px;
+    border: none;
+    color: #fff;
+    background-color: lightseagreen;
+    transition: all ease .5s;
+}
+
+button:hover  {
+    box-shadow: 5px 5px 5px #000;
+
+    /* here first value  x -axis second y -axis and 3rd blur effect */
+}
