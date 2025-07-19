@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 50px;
+    /* border: 2px solid red; */
+
+    background: linear-gradient(rgb(240, 240, 22),orange, rgb(196, 29, 48), purple,blue);
+
+    padding: 3px;
+}
+
+.circle img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
