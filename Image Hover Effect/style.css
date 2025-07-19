@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    height: 380px;
+    width: 300px;
+    overflow: hidden;   
+              /* this is for div overflow */
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease .5s;   
+}
+
+.box:hover img {
+    scale: 1.2;   
+    /* scale -  how many  zoom */
+}

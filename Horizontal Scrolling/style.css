@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 30px;
+}
+
+#parent {
+    background-color: lightblue;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.child {
+    height: 300px;
+    width: 300px;
+    background-color: salmon;
+    margin: 10px;
+    display: inline-block;
+}
