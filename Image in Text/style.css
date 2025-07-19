@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    background-image: url(https://media.istockphoto.com/id/520700958/photo/beautiful-flowers-background.jpg?s=612x612&w=is&k=20&c=0BtEnH18mZ_wDyS6IEXgwNUd7IxXEjGmpiOcEgNUjhM=);
+
+    background-size: cover;
+    background-position: center;
+
+
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
