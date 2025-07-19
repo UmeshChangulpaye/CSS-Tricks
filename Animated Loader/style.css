@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 50px;
+}
+
+.loader {
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    border-top-color:#232323 ;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    100% {
+        rotate: 360deg;
+    }
+}
